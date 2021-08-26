@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #151412;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  height: 80px;
+  width: 90px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+
+    margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 35px;
+
+  position: relative;
+}
+
+nav a {
+  color: #5023E8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #9933ff;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 6px;
+  background-color: #9933ff;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+/* Carroussel */
+
+.carousel-inner{
+  max-width: 1900px;
+  height: 600px;
+  border-bottom: 5px, solid black;
+}
+
+
+/* about */
+
+.conteudo{
+  background-image: linear-gradient(180deg, #151412, #5b2c8a);
+  
+ 
+  height: 1000px;
+  position:static;
+}
+
+.texto{
+  float:  left;
+  
+  max-width: 68%;
+}
+
+.imagem{
+float:left;
+
+}
+
+#titulo{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px; 
+  margin-left: 10%; 
+  
+}
+
+.imagem1{
+  
+  height: 300px;
+  width: 330px;
+  margin-left: 0%;
+  
+}
+
+#about{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px; 
+  margin-left: 5%; 
+  float:  left;
+}
+
+.img-produto{
+
+  margin-left: 20%;
+}
+
+/* Funcionarios */
+
+.foto{
+  float: left;
+  background-color: yellow;
+
+  
+}
+
+.perfil{
+  width: 200px;
+  height: 200px;
+  margin-left: 2%;
+  
+}
+
+.dados{
+  float: left;
+  
+}
+
+#informacao{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  float: left;
+  margin-left: 2%;
+  padding-right: 1% ;
+}
+
+/* Contato */
+
+#contato{
+  float: left;
+
+  width: 50%;
+  
+}
+
+.icones{
+  width: 80px;
+  height: 80px;
+  margin-left: 10%;
+}
+
+#contato a{
+  padding-left: 5%;
+  font-size: 30px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+#contato a :hover{
+  font-size: 30px;
+  color: aqua;
+}
+
+
+
+
+
+
+#mapinha{
+  float: left;
+  
+  width: 50%;
+  
+}
+
